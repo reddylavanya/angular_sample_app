@@ -16,10 +16,6 @@ angular.module("myApp").config(function ($routeProvider) {
     })
     .when("/aboutme", {
         templateUrl : "app/components/aboutme/index.html",
-<<<<<<< HEAD
         controller : "mycontroller"
-=======
-        controller : "matrixctrl"
->>>>>>> f6b1da67e019976aa9153ce53d95635b9c7ef7ed
     });
 });
